@@ -17,7 +17,7 @@ from utils.optimization_utils import OPTIMIZER_CLASSES
 from utils.parser_utils import *
 import os
 task_name = 'm' # choice from ['h', 'm']
-pre_train_model = 'spanbert' # choice from ['spanbert', 'biolink']
+pre_train_model = 'spanbert' 
 task_conf = {
     'm': {
         'dropout': 0.3, # 0.3
