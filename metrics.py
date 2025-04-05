@@ -199,8 +199,6 @@ def evaluate_codes(eval_set, model, name='eval'):
             #     write_file('path_attention.txt', '\t'.join([str(x_i) for x_i in  attention_score.detach().cpu().numpy().tolist()])+'\n' )
 
             preds.append(pred)
-            # loss = loss_fn(logits, Diag_labels)
-            # total_loss += loss.item()
 
         # print('evaluate loss: \t', total_loss)
         preds = torch.vstack(preds).detach().cpu().numpy()
