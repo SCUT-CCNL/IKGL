@@ -1,4 +1,4 @@
-This is the code for the paper "IKxDP: Implicit Knowledge Enhanced Explainable Disease Prediction". We primarily utilized two datasets, namely MIMIC III and MIMIC IV, with nearly identical processing methods. Here, we demonstrate how to conduct experiments using MIMIC III.
+This is the code for the paper "Implicit Knowledge Enhanced Admission Sequence Graph Learning for Disease Prediction". We primarily utilized two datasets, namely MIMIC III and MIMIC IV, with nearly identical processing methods. Here, we demonstrate how to conduct experiments using MIMIC III.
 
 ## Datasets
 
